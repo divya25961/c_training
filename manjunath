@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+    int age;
+    int hight;
+    printf("enter the age");
+    scanf ("%d",&age);
+    printf("enter hight");
+    scanf("%f",&hight);
+    if((age>12)  &&(hight>4.5));
+{
+    printf("you can ride the roller coster");
+}
+else
+{
+    printf("grow up and come");
+}
+}
